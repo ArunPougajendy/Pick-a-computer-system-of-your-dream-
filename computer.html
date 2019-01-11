@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My Computer</title>
+    </head>
+    <body>
+        <form action="" name="form1">
+            <p>
+            Choose the components you want included on your computer
+            </p>
+            <p>
+            <label for="cboProcessor">Processor</label>
+            <select name="cboProcessor" id="cboProcessor">
+                <option value="">Select Processor</option>
+                <option value="100">Dual-core 2GHz</option>
+                <option value="101">Quad-core 2.4GHz</option>
+                <option value="102">Eight-core 3GHz</option>
+            </select>
+            *</p>
+            <p>
+            <label for="cboSsd">Solid-state Drive</label>
+            <select name="cboSsd" id="cboSsd">
+            <option value="">Select GB</option>
+            <option value="200">250GB</option>
+            <option value="201">512GB</option>
+            <option value="202">1TB</option>
+            </select>
+            *</p>
+            <p>
+            <label for="chkDVD">DVD-ROM</label>
+            <input type="checkbox" id="chkDVD" name="chkDVD" value="300" />
+            </p>
+            <p>
+            <label for="chkBluRay">Blu-ray</label>
+            <input type="checkbox" id="chkBluRay" name="chkBluRay"
+            value="301" />
+            </p>
+            <fieldset>
+            <legend>Case *</legend>
+            <p>
+            <label for="desktop">Desktop</label>
+            <input type="radio" id="desktop"
+            name="radCase" checked value="400" />
+            </p>
+            <p>
+            <label for="minitower">Mini-tower</label>
+            <input type="radio" id="minitower"
+            name="radCase" value="401" />
+            </p>
+            <p>
+            <label for="fulltower">Full-tower</label>
+            <input type="radio" id="fulltower"
+            name="radCase" value="402" />
+            </p>
+            </fieldset>
+            <p>* fields are mandatory</p>
+            <p>
+            <input type="button" value="Update"
+            id="btnUpdate" name="btnUpdate" />
+            </p>
+            <p>
+            <label for="txtOrder">Order Summary:</label>
+            </p>
+            <p>
+            <textarea rows="20" cols="35" id="txtOrder"
+            name="txtOrder"></textarea>
+            </p>
+            </form>
+            <script src="code.js"></script>
+    </body>
+</html>
